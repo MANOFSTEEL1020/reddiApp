@@ -1,0 +1,108 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+ .navbar {
+     background-color: #FF4500;
+     /* Reddit orange color */
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0 20px;
+ }
+
+ .navbar-logo {
+     color: #FFFFFF;
+     /* White color for the logo text */
+     font-weight: bold;
+     font-size: 24px;
+     text-decoration: none;
+ }
+
+ .navbar-menu {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     align-items: center;
+ }
+
+ .navbar-menu li {
+     margin-left: 20px;
+ }
+
+ .navbar-menu li a {
+     color: #FFFFFF;
+     /* White color for the menu item text */
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ .navbar-menu li a:hover {
+     text-decoration: underline;
+ }
+/* Post Styles */
+.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #999;
+}
+
+.post:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+.post:nth-child(even) {
+    background-color: #e1e1e1;
+}
